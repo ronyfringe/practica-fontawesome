@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #ebfffb;
+	font-family: Arial;
+
+}
+
+.contenedor {
+	max-width: 700px;
+	height: 100vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button, input {
+	width: 500px;
+	height: 500px;
+	background: #ff5858;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	padding: 30px;
+	color: #ebfffb;
+	font-size: 200px;
+	transition: .3s ease all;
+}
+
+button:hover {
+	background: #ebfffb;
+	color: #ff5858;
+	box-shadow: 3px 3px 58px rgba(0,0,0,.15);
+}
+
